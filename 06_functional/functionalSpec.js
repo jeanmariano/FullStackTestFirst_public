@@ -68,9 +68,9 @@ describe("contains", function() {
     }, 3)).toEqual(true);
   });
 
-  // it("should return false if a collection does not contain a user-specified value", function() {
-  //   expect(contains([1, 3, 9], 2)).toEqual(false);
-  // });
+  it("should return false if a collection does not contain a user-specified value", function() {
+    expect(contains([1, 3, 9], 2)).toEqual(false);
+  });
 });
 
 describe("countWords - a utility function we'll need soon", function() {
