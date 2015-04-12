@@ -8,4 +8,4 @@ var futureMaker = function() {
 
 futureMaker.then(function(output) {
   // expect output to be 100;
-}, );
+}, function() { return "fail";});
